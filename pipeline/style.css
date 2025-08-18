@@ -31,7 +31,8 @@ nav a:hover {
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-woodwork') no-repeat center center/cover;
+  background: url('https://images.unsplash.com/photo-1606788075761-6c7f6f9f2c3b?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+
   color: white;
   text-align: center;
   padding: 100px 20px;
@@ -86,4 +87,8 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+}
+.hero {
+  min-height: 300px;
+  background-color: #3e2f1c; /* fallback color */
 }
